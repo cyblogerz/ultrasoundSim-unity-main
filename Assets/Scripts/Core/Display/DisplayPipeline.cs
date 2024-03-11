@@ -10,7 +10,8 @@ namespace Core.Display
             GameObject probe = GameObject.FindGameObjectWithTag("Probe");
             if (probe != null)
             {
-                
+                IProbeOutput rayOut = new ProbeOut(probe);
+                IImgSrc src = 
             }
         }
     }
